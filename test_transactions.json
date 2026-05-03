@@ -18,275 +18,581 @@
         "CH_CreditScore": 744,
         "DE003_ProcessingCode": "091020",
         "DE022_POSEntryMode": "010",
-        "DE025_POSCondition": "01",
-        "DE038_AuthCode": "MMWPP4",
-        "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T-F2B9E109",
-        "DE042_MerchantID": "M-47904E6074",
-        "DE043_MerchantLocation": "Mcgee-Hays            Murphyberg   KN",
-        "DE048_TokenData": "PAR-6DEEB35AE2B0",
-        "DE049_CurrencyCode": "HUF",
-        "Is_Fraud": false
-    },
-    {
-        "MTI": "0100",
-        "Timestamp": "2026-05-03T17:32:47.283900",
-        "DE002_PAN": "9858279780943654",
-        "DE004_Amount": "000000003728",
-        "Cust_Name": "Christian Freeman",
-        "Cust_Email": "woodwardnicole@gmail.com",
-        "Cust_Phone": "819.910.6707x18306",
-        "Cust_Address": "8353 Jamie Cliff",
-        "Cust_City": "North Matthewside",
-        "Cust_State": "PR",
-        "Cust_ZipCode": "62120",
-        "Device_ID": "1357292a-8b10-4928-b28b-58cdd2ce0da8",
-        "IP_Address": "179.138.223.39",
-        "CH_Age": 30,
-        "CH_Income": 59394.2,
-        "CH_CreditScore": 435,
-        "DE003_ProcessingCode": "010030",
-        "DE022_POSEntryMode": "058",
-        "DE025_POSCondition": "59",
-        "DE038_AuthCode": "FCK0T1",
-        "DE039_ResponseCode": "85",
-        "DE041_TerminalID": "T-084A5079",
-        "DE042_MerchantID": "M-A65E2857E6",
-        "DE043_MerchantLocation": "Anderson-Morgan       Elizabethton ST",
-        "DE048_TokenData": "PAR-72FE24542026",
-        "DE049_CurrencyCode": "MRO",
-        "Is_Fraud": false
-    },
-    {
-        "MTI": "0100",
-        "Timestamp": "2026-05-03T18:24:47.283900",
-        "DE002_PAN": "9691392160743148",
-        "DE004_Amount": "000000006344",
-        "Cust_Name": "Timothy Johnson",
-        "Cust_Email": "fischermichael@gmail.com",
-        "Cust_Phone": "+1-884-390-0017",
-        "Cust_Address": "203 Ryan Lodge",
-        "Cust_City": "Riddlemouth",
-        "Cust_State": "MN",
-        "Cust_ZipCode": "18314",
-        "Device_ID": "aeadb9e2-45e1-4e90-86e9-51ad4d28f225",
-        "IP_Address": "91.114.122.96",
-        "CH_Age": 36,
-        "CH_Income": 17903.1,
-        "CH_CreditScore": 744,
-        "DE003_ProcessingCode": "010030",
-        "DE022_POSEntryMode": "101",
-        "DE025_POSCondition": "01",
-        "DE038_AuthCode": "TQ3GLE",
-        "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T-4F07B56A",
-        "DE042_MerchantID": "M-031EF3E54F",
-        "DE043_MerchantLocation": "Guzman PLC            RobertchesterGR",
-        "DE048_TokenData": "PAR-5270CD8EC9C9",
-        "DE049_CurrencyCode": "CAD",
-        "Is_Fraud": false
-    },
-    {
-        "MTI": "0100",
-        "Timestamp": "2026-05-03T19:11:47.283900",
-        "DE002_PAN": "7125793488671129",
-        "DE004_Amount": "000000067477",
-        "Cust_Name": "Craig Brown",
-        "Cust_Email": "brownstanley@hotmail.com",
-        "Cust_Phone": "377.289.7251x962",
-        "Cust_Address": "5034 Michael Divide Apt. 137",
-        "Cust_City": "Leblancstad",
-        "Cust_State": "MA",
-        "Cust_ZipCode": "20162",
-        "Device_ID": "deb0554f-1c81-4ed3-abe1-ba42706240be",
-        "IP_Address": "88.121.79.12",
-        "CH_Age": 54,
-        "CH_Income": 45388.17,
-        "CH_CreditScore": 537,
-        "DE003_ProcessingCode": "202010",
-        "DE022_POSEntryMode": "050",
-        "DE025_POSCondition": "71",
-        "DE038_AuthCode": "48JAV0",
-        "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T-D7622EA9",
-        "DE042_MerchantID": "M-B254C99AB2",
-        "DE043_MerchantLocation": "Miranda, Thompson and Mcclainfort  HU",
-        "DE048_TokenData": "PAR-3A766383C9BB",
-        "DE049_CurrencyCode": "MXN",
-        "Is_Fraud": false
-    },
-    {
-        "MTI": "0100",
-        "Timestamp": "2026-05-03T20:49:47.283900",
-        "DE002_PAN": "9441458538788330",
-        "DE004_Amount": "000000003113",
-        "Cust_Name": "David Singleton",
-        "Cust_Email": "ysmith@yahoo.com",
-        "Cust_Phone": "6347928034",
-        "Cust_Address": "43379 Dana Motorway Apt. 197",
-        "Cust_City": "Jeffreyfurt",
-        "Cust_State": "DE",
-        "Cust_ZipCode": "95182",
-        "Device_ID": "9ffd530e-9bc2-4069-99e3-db4e1e6ef719",
-        "IP_Address": "19.146.183.211",
-        "CH_Age": 16,
-        "CH_Income": 32906.04,
-        "CH_CreditScore": 303,
-        "DE003_ProcessingCode": "311030",
-        "DE022_POSEntryMode": "078",
         "DE025_POSCondition": "00",
-        "DE038_AuthCode": "7THRWG",
-        "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T-F59C474B",
-        "DE042_MerchantID": "M-F044782987",
-        "DE043_MerchantLocation": "Gonzalez and Sons     North JefferyTH",
-        "DE048_TokenData": "PAR-E536C3677C8F",
-        "DE049_CurrencyCode": "NIS",
-        "Is_Fraud": false
+        "DE038_AuthCode": "",
+        "DE039_ResponseCode": "05",
+        "DE041_TerminalID": "T6763267",
+        "DE042_MerchantID": "M-498844",
+        "DE043_MerchantLocation": "Hernandez, Wright and Woodfurt     US",
+        "Cust_Name": "Andrea Robles",
+        "Cust_Email": "vgibbs@hotmail.com",
+        "Cust_Address": "8736 Lisa Viaduct",
+        "Order_Amount_Micros": 1738000000,
+        "addressMatch": "N",
+        "Account_Risk": {
+            "acctAgeInd": "05",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "71.68.224.18",
+            "identifierForVendor": "dd473f87-2b4c-4f4a-928e-52fb5026f928",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/536.1 (KHTML, like Gecko) Chrome/25.0.808.0 Safari/536.1",
+                "screenHeight": 2532,
+                "screenWidth": 1080,
+                "colorDepth": 24,
+                "timeZone": "Africa/Djibouti"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-7113",
+                    "brand": "Edwards-Lane",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "SKU-4891",
+                    "brand": "Reed LLC",
+                    "quantity": 3
+                }
+            ],
+            "shipping_method": "$electronic",
+            "promotions": [
+                {
+                    "promo_code": "NEWUSER50"
+                }
+            ]
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "U",
+            "threeDSRequestorChallengeInd": "01"
+        },
+        "Is_Fraud": true
     },
     {
         "MTI": "0100",
-        "Timestamp": "2026-05-03T21:47:47.283900",
-        "DE002_PAN": "5884188847197475",
-        "DE004_Amount": "000000010921",
-        "Cust_Name": "Richard Campbell",
-        "Cust_Email": "areeves@hotmail.com",
-        "Cust_Phone": "617-812-1856",
-        "Cust_Address": "18897 Harrell Drive Apt. 552",
-        "Cust_City": "South Brad",
-        "Cust_State": "MS",
-        "Cust_ZipCode": "03490",
-        "Device_ID": "6a5100de-8b54-4543-8371-c4825ed5e4b7",
-        "IP_Address": "173.140.42.17",
-        "CH_Age": 52,
-        "CH_Income": 82501.28,
-        "CH_CreditScore": 501,
-        "DE003_ProcessingCode": "000010",
-        "DE022_POSEntryMode": "078",
+        "Timestamp": "2026-05-03T17:40:44.495272",
+        "DE002_PAN": "7256336695703151",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000001719",
+        "DE022_POSEntryMode": "010",
         "DE025_POSCondition": "00",
-        "DE038_AuthCode": "ZTXB9C",
-        "DE039_ResponseCode": "10",
-        "DE041_TerminalID": "T-F2B9E109",
-        "DE042_MerchantID": "M-47904E6074",
-        "DE043_MerchantLocation": "Mcgee-Hays            Murphyberg   KN",
-        "DE048_TokenData": "PAR-F15D392620B3",
-        "DE049_CurrencyCode": "HUF",
+        "DE038_AuthCode": "EX1CQ9",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T2705038",
+        "DE042_MerchantID": "M-430471",
+        "DE043_MerchantLocation": "Estrada-Green         East GinamoutUS",
+        "Cust_Name": "Angela Wright",
+        "Cust_Email": "jonathanduncan@hotmail.com",
+        "Cust_Address": "45278 David Mews",
+        "Order_Amount_Micros": 17190000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "05",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "10.48.208.86",
+            "identifierForVendor": "c59555b1-1eb4-4639-a935-05a8eeac780c",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (Windows; U; Windows NT 5.1) AppleWebKit/534.18.5 (KHTML, like Gecko) Version/4.1 Safari/534.18.5",
+                "screenHeight": 1080,
+                "screenWidth": 1920,
+                "colorDepth": 24,
+                "timeZone": "Africa/Windhoek"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-8882",
+                    "brand": "Kennedy, Kim and Mullins",
+                    "quantity": 2
+                },
+                {
+                    "item_id": "SKU-9647",
+                    "brand": "Martinez Inc",
+                    "quantity": 2
+                }
+            ],
+            "shipping_method": "$physical",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
         "Is_Fraud": false
     },
     {
         "MTI": "0100",
-        "Timestamp": "2026-05-03T22:11:47.283900",
-        "DE002_PAN": "6721229476312871",
-        "DE004_Amount": "000000016322",
-        "Cust_Name": "Kyle Gonzalez",
-        "Cust_Email": "lauren88@yahoo.com",
-        "Cust_Phone": "(690)495-6974x90296",
-        "Cust_Address": "364 Heather Street Apt. 919",
-        "Cust_City": "New Andreamouth",
-        "Cust_State": "AS",
-        "Cust_ZipCode": "01715",
-        "Device_ID": "54da1a83-b330-4ad1-af91-128d34053cba",
-        "IP_Address": "36.57.141.9",
-        "CH_Age": 38,
-        "CH_Income": 81990.92,
-        "CH_CreditScore": 331,
-        "DE003_ProcessingCode": "090000",
-        "DE022_POSEntryMode": "812",
-        "DE025_POSCondition": "02",
-        "DE038_AuthCode": "KO0IHP",
-        "DE039_ResponseCode": "10",
-        "DE041_TerminalID": "T-A053826E",
-        "DE042_MerchantID": "M-23419BDFEC",
-        "DE043_MerchantLocation": "Graves-Farmer         Harriston    HU",
-        "DE048_TokenData": "PAR-066D6325E5E0",
-        "DE049_CurrencyCode": "BTN",
+        "Timestamp": "2026-05-04T12:54:44.495272",
+        "DE002_PAN": "7035379585975750",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000016577",
+        "DE022_POSEntryMode": "071",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "TL416Y",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T4079327",
+        "DE042_MerchantID": "M-476026",
+        "DE043_MerchantLocation": "Ayers-Smith           South JeremyfUS",
+        "Cust_Name": "Paula Grant",
+        "Cust_Email": "harrellchristopher@hotmail.com",
+        "Cust_Address": "02707 Hayden Streets Apt. 429",
+        "Order_Amount_Micros": 165770000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "05",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "29.138.31.26",
+            "identifierForVendor": "c2ba94cd-914c-45a2-be14-5259b30dfeb9",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_11_5; rv:1.9.4.20) Gecko/7941-09-25 01:44:23.933289 Firefox/3.6.20",
+                "screenHeight": 1080,
+                "screenWidth": 1920,
+                "colorDepth": 24,
+                "timeZone": "Europe/Skopje"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-1465",
+                    "brand": "Daniel-Crawford",
+                    "quantity": 3
+                },
+                {
+                    "item_id": "SKU-4158",
+                    "brand": "Dominguez, Stewart and Ochoa",
+                    "quantity": 2
+                },
+                {
+                    "item_id": "SKU-4414",
+                    "brand": "Washington, Nguyen and Carlson",
+                    "quantity": 3
+                }
+            ],
+            "shipping_method": "$electronic",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
         "Is_Fraud": false
     },
     {
         "MTI": "0100",
-        "Timestamp": "2026-05-03T22:54:47.283900",
-        "DE002_PAN": "7125793488671129",
-        "DE004_Amount": "000000012413",
-        "Cust_Name": "Craig Brown",
-        "Cust_Email": "brownstanley@hotmail.com",
-        "Cust_Phone": "377.289.7251x962",
-        "Cust_Address": "5034 Michael Divide Apt. 137",
-        "Cust_City": "Leblancstad",
-        "Cust_State": "MA",
-        "Cust_ZipCode": "20162",
-        "Device_ID": "deb0554f-1c81-4ed3-abe1-ba42706240be",
-        "IP_Address": "88.121.79.12",
-        "CH_Age": 54,
-        "CH_Income": 45388.17,
-        "CH_CreditScore": 537,
-        "DE003_ProcessingCode": "011010",
-        "DE022_POSEntryMode": "001",
-        "DE025_POSCondition": "71",
-        "DE038_AuthCode": "YQ7YEJ",
-        "DE039_ResponseCode": "08",
-        "DE041_TerminalID": "T-F59C474B",
-        "DE042_MerchantID": "M-F044782987",
-        "DE043_MerchantLocation": "Gonzalez and Sons     North JefferyTH",
-        "DE048_TokenData": "PAR-5884157BF8BA",
-        "DE049_CurrencyCode": "NIS",
+        "Timestamp": "2026-05-04T23:01:44.495272",
+        "DE002_PAN": "6597115072103676",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000001909",
+        "DE022_POSEntryMode": "071",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "9SN28Y",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T7414963",
+        "DE042_MerchantID": "M-847025",
+        "DE043_MerchantLocation": "Fuentes-Wagner        Port NicholemUS",
+        "Cust_Name": "Brian Smith",
+        "Cust_Email": "charlesangela@gmail.com",
+        "Cust_Address": "354 Johnson Pine",
+        "Order_Amount_Micros": 19090000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "02",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "86.40.192.118",
+            "identifierForVendor": "400ea0e3-d18f-475d-851f-ac3a4a2c72c8",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_4 like Mac OS X) AppleWebKit/535.0 (KHTML, like Gecko) CriOS/63.0.855.0 Mobile/60S962 Safari/535.0",
+                "screenHeight": 1920,
+                "screenWidth": 1920,
+                "colorDepth": 24,
+                "timeZone": "Asia/Choibalsan"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-9175",
+                    "brand": "Greene, Patton and Clark",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "SKU-8733",
+                    "brand": "Lawrence Group",
+                    "quantity": 1
+                }
+            ],
+            "shipping_method": "$electronic",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
         "Is_Fraud": false
     },
     {
         "MTI": "0100",
-        "Timestamp": "2026-05-03T23:28:47.283900",
-        "DE002_PAN": "9441458538788330",
-        "DE004_Amount": "000000018119",
-        "Cust_Name": "David Singleton",
-        "Cust_Email": "ysmith@yahoo.com",
-        "Cust_Phone": "6347928034",
-        "Cust_Address": "43379 Dana Motorway Apt. 197",
-        "Cust_City": "Jeffreyfurt",
-        "Cust_State": "DE",
-        "Cust_ZipCode": "95182",
-        "Device_ID": "9ffd530e-9bc2-4069-99e3-db4e1e6ef719",
-        "IP_Address": "19.146.183.211",
-        "CH_Age": 16,
-        "CH_Income": 32906.04,
-        "CH_CreditScore": 303,
-        "DE003_ProcessingCode": "313010",
-        "DE022_POSEntryMode": "008",
-        "DE025_POSCondition": "71",
-        "DE038_AuthCode": "C0L5OT",
-        "DE039_ResponseCode": "10",
-        "DE041_TerminalID": "T-9BAFE683",
-        "DE042_MerchantID": "M-47904E6074",
-        "DE043_MerchantLocation": "Mcgee-Hays            Murphyberg   KN",
-        "DE048_TokenData": "PAR-80061B6FB135",
-        "DE049_CurrencyCode": "HUF",
+        "Timestamp": "2026-05-05T16:40:44.495272",
+        "DE002_PAN": "6597115072103676",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000007659",
+        "DE022_POSEntryMode": "071",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "GRK1GT",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T4687076",
+        "DE042_MerchantID": "M-383969",
+        "DE043_MerchantLocation": "Blair-Ayala           North MichaelUS",
+        "Cust_Name": "Brian Smith",
+        "Cust_Email": "charlesangela@gmail.com",
+        "Cust_Address": "354 Johnson Pine",
+        "Order_Amount_Micros": 76600000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "02",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 2
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "86.40.192.118",
+            "identifierForVendor": "400ea0e3-d18f-475d-851f-ac3a4a2c72c8",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_4 like Mac OS X) AppleWebKit/535.0 (KHTML, like Gecko) CriOS/63.0.855.0 Mobile/60S962 Safari/535.0",
+                "screenHeight": 1920,
+                "screenWidth": 1920,
+                "colorDepth": 24,
+                "timeZone": "Asia/Choibalsan"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-9875",
+                    "brand": "Peters, Bray and Cruz",
+                    "quantity": 2
+                },
+                {
+                    "item_id": "SKU-9308",
+                    "brand": "Pratt PLC",
+                    "quantity": 3
+                }
+            ],
+            "shipping_method": "$electronic",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
         "Is_Fraud": false
     },
     {
         "MTI": "0100",
-        "Timestamp": "2026-05-04T00:45:47.283900",
-        "DE002_PAN": "2357807277781780",
-        "DE004_Amount": "000000003675",
-        "Cust_Name": "Carlos Gamble",
-        "Cust_Email": "aliantonio@gmail.com",
-        "Cust_Phone": "993-374-8256x509",
-        "Cust_Address": "890 Hardy Grove",
-        "Cust_City": "Griffithborough",
-        "Cust_State": "RI",
-        "Cust_ZipCode": "04792",
-        "Device_ID": "81766302-e678-4f53-9f4d-5bb0c52468f7",
-        "IP_Address": "143.78.248.17",
-        "CH_Age": 40,
-        "CH_Income": 23563.47,
-        "CH_CreditScore": 751,
-        "DE003_ProcessingCode": "310030",
-        "DE022_POSEntryMode": "021",
-        "DE025_POSCondition": "03",
-        "DE038_AuthCode": "ZUR7OW",
-        "DE039_ResponseCode": "85",
-        "DE041_TerminalID": "T-25FC7DB2",
-        "DE042_MerchantID": "M-47904E6074",
-        "DE043_MerchantLocation": "Mcgee-Hays            Murphyberg   KN",
-        "DE048_TokenData": "PAR-4289E82DA311",
-        "DE049_CurrencyCode": "HUF",
+        "Timestamp": "2026-05-06T01:57:44.495272",
+        "DE002_PAN": "7256336695703151",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000004359",
+        "DE022_POSEntryMode": "801",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "N48ZGX",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T2705038",
+        "DE042_MerchantID": "M-430471",
+        "DE043_MerchantLocation": "Estrada-Green         East GinamoutUS",
+        "Cust_Name": "Angela Wright",
+        "Cust_Email": "jonathanduncan@hotmail.com",
+        "Cust_Address": "45278 David Mews",
+        "Order_Amount_Micros": 43590000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "05",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "10.48.208.86",
+            "identifierForVendor": "c59555b1-1eb4-4639-a935-05a8eeac780c",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (Windows; U; Windows NT 5.1) AppleWebKit/534.18.5 (KHTML, like Gecko) Version/4.1 Safari/534.18.5",
+                "screenHeight": 1080,
+                "screenWidth": 1920,
+                "colorDepth": 24,
+                "timeZone": "Africa/Windhoek"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-8882",
+                    "brand": "Kennedy, Kim and Mullins",
+                    "quantity": 2
+                },
+                {
+                    "item_id": "SKU-9647",
+                    "brand": "Martinez Inc",
+                    "quantity": 2
+                }
+            ],
+            "shipping_method": "$physical",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
+        "Is_Fraud": false
+    },
+    {
+        "MTI": "0100",
+        "Timestamp": "2026-05-06T18:54:44.495272",
+        "DE002_PAN": "3805601346007913",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000001130",
+        "DE022_POSEntryMode": "010",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "Y949KO",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T9769365",
+        "DE042_MerchantID": "M-430471",
+        "DE043_MerchantLocation": "Estrada-Green         East GinamoutUS",
+        "Cust_Name": "Lawrence Powell",
+        "Cust_Email": "charles26@gmail.com",
+        "Cust_Address": "3763 Lane Crossroad",
+        "Order_Amount_Micros": 11300000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "02",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "13.252.130.229",
+            "identifierForVendor": "25f14d6f-8e86-4bda-8fec-0ffc2b455a1d",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_8_7 rv:2.0; oc-FR) AppleWebKit/531.48.2 (KHTML, like Gecko) Version/5.0 Safari/531.48.2",
+                "screenHeight": 2532,
+                "screenWidth": 1170,
+                "colorDepth": 24,
+                "timeZone": "America/Nassau"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-8882",
+                    "brand": "Kennedy, Kim and Mullins",
+                    "quantity": 2
+                },
+                {
+                    "item_id": "SKU-9647",
+                    "brand": "Martinez Inc",
+                    "quantity": 2
+                }
+            ],
+            "shipping_method": "$physical",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
+        "Is_Fraud": false
+    },
+    {
+        "MTI": "0100",
+        "Timestamp": "2026-05-07T08:34:44.495272",
+        "DE002_PAN": "4330248625977622",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000002110",
+        "DE022_POSEntryMode": "801",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "2JQVBZ",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T2705038",
+        "DE042_MerchantID": "M-430471",
+        "DE043_MerchantLocation": "Estrada-Green         East GinamoutUS",
+        "Cust_Name": "Andrea Robles",
+        "Cust_Email": "vgibbs@hotmail.com",
+        "Cust_Address": "8736 Lisa Viaduct",
+        "Order_Amount_Micros": 21100000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "05",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "71.68.224.18",
+            "identifierForVendor": "dd473f87-2b4c-4f4a-928e-52fb5026f928",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/536.1 (KHTML, like Gecko) Chrome/25.0.808.0 Safari/536.1",
+                "screenHeight": 2532,
+                "screenWidth": 1080,
+                "colorDepth": 24,
+                "timeZone": "Africa/Djibouti"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-8882",
+                    "brand": "Kennedy, Kim and Mullins",
+                    "quantity": 2
+                },
+                {
+                    "item_id": "SKU-9647",
+                    "brand": "Martinez Inc",
+                    "quantity": 2
+                }
+            ],
+            "shipping_method": "$physical",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
+        "Is_Fraud": false
+    },
+    {
+        "MTI": "0100",
+        "Timestamp": "2026-05-07T11:35:44.495272",
+        "DE002_PAN": "9056444357608342",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000001213",
+        "DE022_POSEntryMode": "801",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "KQN02A",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T5100350",
+        "DE042_MerchantID": "M-780979",
+        "DE043_MerchantLocation": "Harris Group          Gallowaybury US",
+        "Cust_Name": "Jessica Glass",
+        "Cust_Email": "bjohnson@gmail.com",
+        "Cust_Address": "7455 Richard Junctions",
+        "Order_Amount_Micros": 12130000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "05",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "40.224.14.105",
+            "identifierForVendor": "b2d1aad3-eac3-44e4-84a1-700a44604bab",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (Windows NT 6.2; os-RU; rv:1.9.1.20) Gecko/5751-02-07 18:21:03.796509 Firefox/12.0",
+                "screenHeight": 1920,
+                "screenWidth": 1080,
+                "colorDepth": 24,
+                "timeZone": "Europe/Prague"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-2492",
+                    "brand": "Anderson-Pope",
+                    "quantity": 3
+                },
+                {
+                    "item_id": "SKU-5178",
+                    "brand": "Allen-Williams",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "SKU-3529",
+                    "brand": "Higgins, Norton and Harris",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "SKU-9137",
+                    "brand": "Taylor, Armstrong and Savage",
+                    "quantity": 1
+                }
+            ],
+            "shipping_method": "$electronic",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
+        "Is_Fraud": false
+    },
+    {
+        "MTI": "0100",
+        "Timestamp": "2026-05-08T10:06:44.495272",
+        "DE002_PAN": "7035379585975750",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000003554",
+        "DE022_POSEntryMode": "071",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "B6UV5K",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T6663592",
+        "DE042_MerchantID": "M-677519",
+        "DE043_MerchantLocation": "Vance Group           KimberlymouthUS",
+        "Cust_Name": "Paula Grant",
+        "Cust_Email": "harrellchristopher@hotmail.com",
+        "Cust_Address": "02707 Hayden Streets Apt. 429",
+        "Order_Amount_Micros": 35540000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "05",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "29.138.31.26",
+            "identifierForVendor": "c2ba94cd-914c-45a2-be14-5259b30dfeb9",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_11_5; rv:1.9.4.20) Gecko/7941-09-25 01:44:23.933289 Firefox/3.6.20",
+                "screenHeight": 1080,
+                "screenWidth": 1920,
+                "colorDepth": 24,
+                "timeZone": "Europe/Skopje"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-8297",
+                    "brand": "Coleman-Mason",
+                    "quantity": 2
+                }
+            ],
+            "shipping_method": "$physical",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
         "Is_Fraud": false
     }
 ]
