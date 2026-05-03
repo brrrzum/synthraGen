@@ -1,78 +1,27 @@
 [
     {
+        "transaction_id": "3ab10c3d-a33d-45c1-8679-5085637de3ec",
+        "schema_version": "1.1.0",
+        "generator_version": "synthraGen-1.1",
         "MTI": "0100",
-        "Timestamp": "2026-05-04T22:14:15.082705",
-        "DE002_PAN": "1540683582035307",
+        "Timestamp": "2026-05-04T14:42:21.524771+00:00",
+        "DE002_PAN": "828779******6780",
         "DE003_ProcessingCode": "000000",
-        "DE004_Amount": "000000002148",
-        "DE022_POSEntryMode": "801",
-        "DE025_POSCondition": "00",
-        "DE038_AuthCode": "8RFXJZ",
-        "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T2835822",
-        "DE042_MerchantID": "M-743213",
-        "DE043_MerchantLocation": "Rich-Harrison         Emilyfort    US",
-        "Cust_Name": "Casey Williams",
-        "Cust_Email": "cruzbeth@hotmail.com",
-        "Cust_Address": "746 Richard Curve Suite 825",
-        "Order_Amount_Micros": 21480000,
-        "addressMatch": "Y",
-        "Account_Risk": {
-            "acctAgeInd": "05",
-            "acctChangeInd": "01",
-            "suspiciousAccActivity": false,
-            "txnActivityDay": 1
-        },
-        "Device_Browser_Telemetry": {
-            "ipAddress": "167.141.16.72",
-            "identifierForVendor": "97dc721e-9cb3-497b-8dcc-4baa950321f7",
-            "browserDetails": {
-                "userAgent": "Mozilla/5.0 (iPod; U; CPU iPhone OS 3_2 like Mac OS X; sv-SE) AppleWebKit/532.7.7 (KHTML, like Gecko) Version/3.0.5 Mobile/8B114 Safari/6532.7.7",
-                "screenHeight": 1080,
-                "screenWidth": 1080,
-                "colorDepth": 24,
-                "timeZone": "Europe/Istanbul"
-            }
-        },
-        "Item_Metadata": {
-            "items": [
-                {
-                    "item_id": "SKU-7595",
-                    "brand": "White, Perry and Dominguez",
-                    "quantity": 2
-                },
-                {
-                    "item_id": "SKU-9438",
-                    "brand": "Jordan Group",
-                    "quantity": 1
-                }
-            ],
-            "shipping_method": "$physical",
-            "promotions": []
-        },
-        "Authentication_3DS2": {
-            "transactionStatus": "Y",
-            "threeDSRequestorChallengeInd": "05"
-        },
-        "Is_Fraud": false
-    },
-    {
-        "MTI": "0100",
-        "Timestamp": "2026-05-05T10:22:15.082705",
-        "DE002_PAN": "9396458713810656",
-        "DE003_ProcessingCode": "000000",
-        "DE004_Amount": "000000001950",
+        "DE004_Amount": "000000000341",
         "DE022_POSEntryMode": "010",
         "DE025_POSCondition": "00",
-        "DE038_AuthCode": "J543J4",
+        "DE038_AuthCode": "H588GK",
         "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T5252747",
-        "DE042_MerchantID": "M-402515",
-        "DE043_MerchantLocation": "Miles, Huffman and WeiSouth Lauren US",
-        "Cust_Name": "Barbara Torres",
-        "Cust_Email": "jorge99@yahoo.com",
-        "Cust_Address": "0384 Carter Ports",
-        "Order_Amount_Micros": 19500000,
+        "DE041_TerminalID": "T8928169",
+        "DE042_MerchantID": "M-967760",
+        "DE043_MerchantLocation": "Walker-Santiago       Schmittmouth US",
+        "Cust_ID": "TOK-7e55800be96a54d7",
+        "Cust_Name": "Donald Martin",
+        "Cust_Email": "re*******@yahoo.com",
+        "Cust_Address": "3930 Paula Shores",
+        "Account_Number": "ACCT-342157735",
+        "Account_Status": "active",
+        "Order_Amount_Micros": 3410000,
         "addressMatch": "Y",
         "Account_Risk": {
             "acctAgeInd": "02",
@@ -81,31 +30,21 @@
             "txnActivityDay": 1
         },
         "Device_Browser_Telemetry": {
-            "ipAddress": "101.208.46.185",
-            "identifierForVendor": "f71e6828-8651-4024-bbce-578c4995a379",
+            "ipAddress": "118.183.2.229",
+            "identifierForVendor": "422ec88c-b4bb-4dc4-9f73-af4c8cb9ab6d",
             "browserDetails": {
-                "userAgent": "Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.0; Trident/5.1)",
+                "userAgent": "Mozilla/5.0 (iPad; CPU iPad OS 4_3_5 like Mac OS X) AppleWebKit/532.1 (KHTML, like Gecko) CriOS/60.0.800.0 Mobile/86M425 Safari/532.1",
                 "screenHeight": 1080,
-                "screenWidth": 1920,
+                "screenWidth": 1170,
                 "colorDepth": 24,
-                "timeZone": "Africa/Kampala"
+                "timeZone": "Europe/Andorra"
             }
         },
         "Item_Metadata": {
             "items": [
                 {
-                    "item_id": "SKU-1743",
-                    "brand": "Zuniga Group",
-                    "quantity": 3
-                },
-                {
-                    "item_id": "SKU-8757",
-                    "brand": "Black, Robinson and Morris",
-                    "quantity": 1
-                },
-                {
-                    "item_id": "SKU-9790",
-                    "brand": "Davis-Taylor",
+                    "item_id": "SKU-9310",
+                    "brand": "Costa-Gibbs",
                     "quantity": 3
                 }
             ],
@@ -116,311 +55,99 @@
             "transactionStatus": "Y",
             "threeDSRequestorChallengeInd": "05"
         },
-        "Is_Fraud": false
+        "Is_Fraud": false,
+        "customer_id": "CH-36869",
+        "kyc_level": "premium",
+        "tenure_days": 6,
+        "prior_chargeback_count_30d": 2,
+        "card_brand": "Amex",
+        "card_product": "credit",
+        "issuer_bin": "828779",
+        "card_expiry_month": 11,
+        "card_expiry_year": 2030,
+        "cvv_result": "U",
+        "avs_result": "Y",
+        "tokenized_pan": true,
+        "network_token_type": "DPAN",
+        "transaction_id_network": "5d9fff1c-018c-406e-8634-323070563914",
+        "retrieval_reference_number": "888265782925",
+        "authorization_lifecycle": "auth",
+        "installment_count": 0,
+        "tip_amount": 0.0,
+        "tax_amount": 0.27280000000000004,
+        "shipping_amount": 1.028931419707645,
+        "merchant_country": "US",
+        "card_issuing_country": "US",
+        "geo_distance": 186.9778183618186,
+        "currency_conversion_rate": 1.0,
+        "original_amount": 3.41,
+        "device_trust_score": 0.6764710432035304,
+        "proxy_vpn_tor_flag": false,
+        "ip_risk_score": 0.19170277926880008,
+        "device_first_seen_at": "2025-06-09T14:42:21.524771+00:00",
+        "device_age_days": 303,
+        "cookie_age_days": 28,
+        "sim_swap_recent_flag": false,
+        "txn_count_1h": 0,
+        "txn_count_24h": 1,
+        "txn_count_7d": 7,
+        "amount_sum_1h": 0.0,
+        "amount_sum_24h": 3.41,
+        "amount_sum_7d": 23.87,
+        "distinct_merchants_24h": 1,
+        "distinct_cards_per_device_24h": 1,
+        "failed_auth_count_24h": 3,
+        "time_since_last_txn_sec": 6424,
+        "mcc_risk_score": 0.8873729568587071,
+        "is_marketplace_submerchant": false,
+        "submerchant_id": ""
     },
     {
+        "transaction_id": "616eabac-2d90-46f8-88df-45ea9309dfcf",
+        "schema_version": "1.1.0",
+        "generator_version": "synthraGen-1.1",
         "MTI": "0100",
-        "Timestamp": "2026-05-06T09:30:15.082705",
-        "DE002_PAN": "8076989610766822",
+        "Timestamp": "2026-05-05T10:23:21.524771+00:00",
+        "DE002_PAN": "828779******6780",
         "DE003_ProcessingCode": "000000",
-        "DE004_Amount": "000000001672",
-        "DE022_POSEntryMode": "010",
+        "DE004_Amount": "000000003267",
+        "DE022_POSEntryMode": "071",
         "DE025_POSCondition": "00",
-        "DE038_AuthCode": "HVXSO8",
+        "DE038_AuthCode": "4PIP6N",
         "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T1968677",
-        "DE042_MerchantID": "M-743213",
-        "DE043_MerchantLocation": "Rich-Harrison         Emilyfort    US",
-        "Cust_Name": "David Moore",
-        "Cust_Email": "karinajacobs@yahoo.com",
-        "Cust_Address": "4987 Johnson Parkways",
-        "Order_Amount_Micros": 16719999,
+        "DE041_TerminalID": "T9602855",
+        "DE042_MerchantID": "M-967760",
+        "DE043_MerchantLocation": "Walker-Santiago       Schmittmouth US",
+        "Cust_ID": "TOK-7e55800be96a54d7",
+        "Cust_Name": "Donald Martin",
+        "Cust_Email": "re*******@yahoo.com",
+        "Cust_Address": "3930 Paula Shores",
+        "Account_Number": "ACCT-342157735",
+        "Account_Status": "active",
+        "Order_Amount_Micros": 32670000,
         "addressMatch": "Y",
         "Account_Risk": {
-            "acctAgeInd": "05",
+            "acctAgeInd": "02",
             "acctChangeInd": "01",
             "suspiciousAccActivity": false,
-            "txnActivityDay": 1
+            "txnActivityDay": 2
         },
         "Device_Browser_Telemetry": {
-            "ipAddress": "194.180.21.87",
-            "identifierForVendor": "57c6849a-57a8-414a-a83f-a8ebc8c3fe08",
+            "ipAddress": "118.183.2.229",
+            "identifierForVendor": "422ec88c-b4bb-4dc4-9f73-af4c8cb9ab6d",
             "browserDetails": {
-                "userAgent": "Mozilla/5.0 (iPod; U; CPU iPhone OS 3_2 like Mac OS X; yo-NG) AppleWebKit/532.4.6 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6532.4.6",
-                "screenHeight": 2532,
-                "screenWidth": 1080,
-                "colorDepth": 24,
-                "timeZone": "Europe/Luxembourg"
-            }
-        },
-        "Item_Metadata": {
-            "items": [
-                {
-                    "item_id": "SKU-7595",
-                    "brand": "White, Perry and Dominguez",
-                    "quantity": 2
-                },
-                {
-                    "item_id": "SKU-9438",
-                    "brand": "Jordan Group",
-                    "quantity": 1
-                }
-            ],
-            "shipping_method": "$physical",
-            "promotions": []
-        },
-        "Authentication_3DS2": {
-            "transactionStatus": "Y",
-            "threeDSRequestorChallengeInd": "05"
-        },
-        "Is_Fraud": false
-    },
-    {
-        "MTI": "0100",
-        "Timestamp": "2026-05-06T18:56:15.082705",
-        "DE002_PAN": "8639661744249864",
-        "DE003_ProcessingCode": "000000",
-        "DE004_Amount": "000000002185",
-        "DE022_POSEntryMode": "801",
-        "DE025_POSCondition": "00",
-        "DE038_AuthCode": "T1PSE8",
-        "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T9195195",
-        "DE042_MerchantID": "M-362259",
-        "DE043_MerchantLocation": "Stewart-Stout         South PatriciUS",
-        "Cust_Name": "Randy Meyer",
-        "Cust_Email": "calderonshawn@yahoo.com",
-        "Cust_Address": "6881 Howard Shore Suite 055",
-        "Order_Amount_Micros": 21850000,
-        "addressMatch": "Y",
-        "Account_Risk": {
-            "acctAgeInd": "05",
-            "acctChangeInd": "01",
-            "suspiciousAccActivity": false,
-            "txnActivityDay": 1
-        },
-        "Device_Browser_Telemetry": {
-            "ipAddress": "74.88.124.165",
-            "identifierForVendor": "66ec9f15-d03f-4434-bf49-5b447831acc2",
-            "browserDetails": {
-                "userAgent": "Mozilla/5.0 (Windows; U; Windows NT 5.01) AppleWebKit/534.30.2 (KHTML, like Gecko) Version/4.0 Safari/534.30.2",
-                "screenHeight": 2532,
-                "screenWidth": 1080,
-                "colorDepth": 24,
-                "timeZone": "America/Rankin_Inlet"
-            }
-        },
-        "Item_Metadata": {
-            "items": [
-                {
-                    "item_id": "SKU-8104",
-                    "brand": "Stanley, Curtis and Brown",
-                    "quantity": 2
-                },
-                {
-                    "item_id": "SKU-7976",
-                    "brand": "Moore, Quinn and Smith",
-                    "quantity": 1
-                },
-                {
-                    "item_id": "SKU-3505",
-                    "brand": "Harrison-Smith",
-                    "quantity": 1
-                },
-                {
-                    "item_id": "SKU-1001",
-                    "brand": "Peterson Group",
-                    "quantity": 2
-                }
-            ],
-            "shipping_method": "$physical",
-            "promotions": []
-        },
-        "Authentication_3DS2": {
-            "transactionStatus": "Y",
-            "threeDSRequestorChallengeInd": "05"
-        },
-        "Is_Fraud": false
-    },
-    {
-        "MTI": "0100",
-        "Timestamp": "2026-05-07T05:02:15.082705",
-        "DE002_PAN": "9753110080531400",
-        "DE003_ProcessingCode": "000000",
-        "DE004_Amount": "000000000991",
-        "DE022_POSEntryMode": "801",
-        "DE025_POSCondition": "00",
-        "DE038_AuthCode": "J0VBB0",
-        "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T7399393",
-        "DE042_MerchantID": "M-362259",
-        "DE043_MerchantLocation": "Stewart-Stout         South PatriciUS",
-        "Cust_Name": "Randy Barton",
-        "Cust_Email": "johnstonjulian@yahoo.com",
-        "Cust_Address": "0321 Amy Alley Suite 094",
-        "Order_Amount_Micros": 9910000,
-        "addressMatch": "Y",
-        "Account_Risk": {
-            "acctAgeInd": "05",
-            "acctChangeInd": "01",
-            "suspiciousAccActivity": false,
-            "txnActivityDay": 1
-        },
-        "Device_Browser_Telemetry": {
-            "ipAddress": "141.251.176.154",
-            "identifierForVendor": "f911ccaa-9273-4199-9a57-19d7f102f34f",
-            "browserDetails": {
-                "userAgent": "Mozilla/5.0 (iPad; CPU iPad OS 6_1_6 like Mac OS X) AppleWebKit/533.1 (KHTML, like Gecko) FxiOS/18.5n3806.0 Mobile/47O766 Safari/533.1",
-                "screenHeight": 1920,
-                "screenWidth": 1080,
-                "colorDepth": 24,
-                "timeZone": "Africa/Conakry"
-            }
-        },
-        "Item_Metadata": {
-            "items": [
-                {
-                    "item_id": "SKU-8104",
-                    "brand": "Stanley, Curtis and Brown",
-                    "quantity": 2
-                },
-                {
-                    "item_id": "SKU-7976",
-                    "brand": "Moore, Quinn and Smith",
-                    "quantity": 1
-                },
-                {
-                    "item_id": "SKU-3505",
-                    "brand": "Harrison-Smith",
-                    "quantity": 1
-                },
-                {
-                    "item_id": "SKU-1001",
-                    "brand": "Peterson Group",
-                    "quantity": 2
-                }
-            ],
-            "shipping_method": "$physical",
-            "promotions": []
-        },
-        "Authentication_3DS2": {
-            "transactionStatus": "Y",
-            "threeDSRequestorChallengeInd": "05"
-        },
-        "Is_Fraud": false
-    },
-    {
-        "MTI": "0100",
-        "Timestamp": "2026-05-07T15:53:15.082705",
-        "DE002_PAN": "8581004949545844",
-        "DE003_ProcessingCode": "000000",
-        "DE004_Amount": "000000000843",
-        "DE022_POSEntryMode": "801",
-        "DE025_POSCondition": "00",
-        "DE038_AuthCode": "SBM7V7",
-        "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T1871066",
-        "DE042_MerchantID": "M-537689",
-        "DE043_MerchantLocation": "Harper and Sons       West JoanboroUS",
-        "Cust_Name": "Deborah Garcia",
-        "Cust_Email": "kyoung@hotmail.com",
-        "Cust_Address": "24227 Joshua Drive Apt. 349",
-        "Order_Amount_Micros": 8430000,
-        "addressMatch": "Y",
-        "Account_Risk": {
-            "acctAgeInd": "05",
-            "acctChangeInd": "01",
-            "suspiciousAccActivity": false,
-            "txnActivityDay": 1
-        },
-        "Device_Browser_Telemetry": {
-            "ipAddress": "182.176.193.248",
-            "identifierForVendor": "2387c527-6045-4247-9e7b-d4667ccd5c2f",
-            "browserDetails": {
-                "userAgent": "Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 6.2; Trident/3.0)",
-                "screenHeight": 1920,
-                "screenWidth": 1920,
-                "colorDepth": 24,
-                "timeZone": "Asia/Bishkek"
-            }
-        },
-        "Item_Metadata": {
-            "items": [
-                {
-                    "item_id": "SKU-6540",
-                    "brand": "Gilbert, Sheppard and Robbins",
-                    "quantity": 2
-                },
-                {
-                    "item_id": "SKU-7231",
-                    "brand": "Morales-Garcia",
-                    "quantity": 2
-                },
-                {
-                    "item_id": "SKU-8584",
-                    "brand": "Baxter, Kennedy and Nelson",
-                    "quantity": 2
-                }
-            ],
-            "shipping_method": "$physical",
-            "promotions": []
-        },
-        "Authentication_3DS2": {
-            "transactionStatus": "Y",
-            "threeDSRequestorChallengeInd": "05"
-        },
-        "Is_Fraud": false
-    },
-    {
-        "MTI": "0100",
-        "Timestamp": "2026-05-08T09:24:15.082705",
-        "DE002_PAN": "9396458713810656",
-        "DE003_ProcessingCode": "000000",
-        "DE004_Amount": "000000005130",
-        "DE022_POSEntryMode": "010",
-        "DE025_POSCondition": "00",
-        "DE038_AuthCode": "1WA23E",
-        "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T8964519",
-        "DE042_MerchantID": "M-402515",
-        "DE043_MerchantLocation": "Miles, Huffman and WeiSouth Lauren US",
-        "Cust_Name": "Barbara Torres",
-        "Cust_Email": "jorge99@yahoo.com",
-        "Cust_Address": "0384 Carter Ports",
-        "Order_Amount_Micros": 51300000,
-        "addressMatch": "Y",
-        "Account_Risk": {
-            "acctAgeInd": "05",
-            "acctChangeInd": "01",
-            "suspiciousAccActivity": false,
-            "txnActivityDay": 1
-        },
-        "Device_Browser_Telemetry": {
-            "ipAddress": "101.208.46.185",
-            "identifierForVendor": "f71e6828-8651-4024-bbce-578c4995a379",
-            "browserDetails": {
-                "userAgent": "Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.0; Trident/5.1)",
+                "userAgent": "Mozilla/5.0 (iPad; CPU iPad OS 4_3_5 like Mac OS X) AppleWebKit/532.1 (KHTML, like Gecko) CriOS/60.0.800.0 Mobile/86M425 Safari/532.1",
                 "screenHeight": 1080,
-                "screenWidth": 1920,
+                "screenWidth": 1170,
                 "colorDepth": 24,
-                "timeZone": "Africa/Kampala"
+                "timeZone": "Europe/Andorra"
             }
         },
         "Item_Metadata": {
             "items": [
                 {
-                    "item_id": "SKU-1743",
-                    "brand": "Zuniga Group",
-                    "quantity": 3
-                },
-                {
-                    "item_id": "SKU-8757",
-                    "brand": "Black, Robinson and Morris",
-                    "quantity": 1
-                },
-                {
-                    "item_id": "SKU-9790",
-                    "brand": "Davis-Taylor",
+                    "item_id": "SKU-9310",
+                    "brand": "Costa-Gibbs",
                     "quantity": 3
                 }
             ],
@@ -431,25 +158,184 @@
             "transactionStatus": "Y",
             "threeDSRequestorChallengeInd": "05"
         },
-        "Is_Fraud": false
+        "Is_Fraud": false,
+        "customer_id": "CH-36869",
+        "kyc_level": "premium",
+        "tenure_days": 7,
+        "prior_chargeback_count_30d": 2,
+        "card_brand": "Visa",
+        "card_product": "credit",
+        "issuer_bin": "828779",
+        "card_expiry_month": 12,
+        "card_expiry_year": 2030,
+        "cvv_result": "N",
+        "avs_result": "Y",
+        "tokenized_pan": true,
+        "network_token_type": "DPAN",
+        "transaction_id_network": "2b8b10d6-4a71-4e03-9eaf-d18da8b6908e",
+        "retrieval_reference_number": "796887571805",
+        "authorization_lifecycle": "auth",
+        "installment_count": 0,
+        "tip_amount": 0.0,
+        "tax_amount": 2.6136000000000004,
+        "shipping_amount": 3.87762206019831,
+        "merchant_country": "US",
+        "card_issuing_country": "US",
+        "geo_distance": 145.08164596718998,
+        "currency_conversion_rate": 1.0,
+        "original_amount": 32.67,
+        "device_trust_score": 0.4440588841613997,
+        "proxy_vpn_tor_flag": false,
+        "ip_risk_score": 0.9342650141880817,
+        "device_first_seen_at": "2025-11-03T10:23:21.524771+00:00",
+        "device_age_days": 296,
+        "cookie_age_days": 28,
+        "sim_swap_recent_flag": false,
+        "txn_count_1h": 0,
+        "txn_count_24h": 2,
+        "txn_count_7d": 14,
+        "amount_sum_1h": 0.0,
+        "amount_sum_24h": 65.34,
+        "amount_sum_7d": 457.38,
+        "distinct_merchants_24h": 3,
+        "distinct_cards_per_device_24h": 1,
+        "failed_auth_count_24h": 1,
+        "time_since_last_txn_sec": 80444,
+        "mcc_risk_score": 0.05563480963317324,
+        "is_marketplace_submerchant": false,
+        "submerchant_id": ""
     },
     {
+        "transaction_id": "8f45d1aa-23e7-402c-839e-4751e3c9f296",
+        "schema_version": "1.1.0",
+        "generator_version": "synthraGen-1.1",
         "MTI": "0100",
-        "Timestamp": "2026-05-09T08:47:15.082705",
-        "DE002_PAN": "5866981457835059",
+        "Timestamp": "2026-05-05T18:47:21.524771+00:00",
+        "DE002_PAN": "870029******9589",
         "DE003_ProcessingCode": "000000",
-        "DE004_Amount": "000000007391",
+        "DE004_Amount": "000000002550",
+        "DE022_POSEntryMode": "051",
+        "DE025_POSCondition": "51",
+        "DE038_AuthCode": "WN98QN",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T9571461",
+        "DE042_MerchantID": "M-712008",
+        "DE043_MerchantLocation": "Mosley-Peterson       South John   US",
+        "Cust_ID": "TOK-99d62a97098c53f1",
+        "Cust_Name": "John Davis",
+        "Cust_Email": "br*****@gmail.com",
+        "Cust_Address": "7946 Myers Squares",
+        "Account_Number": "ACCT-716613281",
+        "Account_Status": "frozen",
+        "Order_Amount_Micros": 25500000,
+        "addressMatch": "N",
+        "Account_Risk": {
+            "acctAgeInd": "05",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "133.84.223.35",
+            "identifierForVendor": "84c3685f-0335-4501-9ef8-328bbcbe0575",
+            "browserDetails": {
+                "userAgent": "Opera/8.44.(Windows NT 6.2; hsb-DE) Presto/2.9.188 Version/10.00",
+                "screenHeight": 1080,
+                "screenWidth": 1170,
+                "colorDepth": 24,
+                "timeZone": "Australia/Darwin"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-2828",
+                    "brand": "Harris, Li and Price",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "SKU-3625",
+                    "brand": "West Inc",
+                    "quantity": 3
+                }
+            ],
+            "shipping_method": "$physical",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
+        "Is_Fraud": false,
+        "customer_id": "CH-99909",
+        "kyc_level": "basic",
+        "tenure_days": 238,
+        "prior_chargeback_count_30d": 1,
+        "card_brand": "Visa",
+        "card_product": "prepaid",
+        "issuer_bin": "870029",
+        "card_expiry_month": 4,
+        "card_expiry_year": 2028,
+        "cvv_result": "U",
+        "avs_result": "A",
+        "tokenized_pan": true,
+        "network_token_type": "DPAN",
+        "transaction_id_network": "17fea1f2-4591-4684-b6de-d6554335d7f2",
+        "retrieval_reference_number": "078967071004",
+        "authorization_lifecycle": "auth",
+        "installment_count": 0,
+        "tip_amount": 0.0,
+        "tax_amount": 2.04,
+        "shipping_amount": 0.8208452580766901,
+        "merchant_country": "US",
+        "card_issuing_country": "US",
+        "geo_distance": 873.377980427959,
+        "currency_conversion_rate": 1.0,
+        "original_amount": 25.5,
+        "device_trust_score": 0.8074480299479829,
+        "proxy_vpn_tor_flag": false,
+        "ip_risk_score": 0.2410095953061534,
+        "device_first_seen_at": "2025-05-31T18:47:21.524771+00:00",
+        "device_age_days": 299,
+        "cookie_age_days": 17,
+        "sim_swap_recent_flag": false,
+        "txn_count_1h": 0,
+        "txn_count_24h": 1,
+        "txn_count_7d": 7,
+        "amount_sum_1h": 0.0,
+        "amount_sum_24h": 25.5,
+        "amount_sum_7d": 178.5,
+        "distinct_merchants_24h": 3,
+        "distinct_cards_per_device_24h": 1,
+        "failed_auth_count_24h": 3,
+        "time_since_last_txn_sec": 57751,
+        "mcc_risk_score": 0.6510339028588229,
+        "is_marketplace_submerchant": false,
+        "submerchant_id": ""
+    },
+    {
+        "transaction_id": "f95947f6-2794-4ed2-899f-7755d884ffba",
+        "schema_version": "1.1.0",
+        "generator_version": "synthraGen-1.1",
+        "MTI": "0100",
+        "Timestamp": "2026-05-06T01:44:21.524771+00:00",
+        "DE002_PAN": "881748******7831",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000007406",
         "DE022_POSEntryMode": "010",
         "DE025_POSCondition": "00",
-        "DE038_AuthCode": "S7HHBV",
+        "DE038_AuthCode": "TGHYYE",
         "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T7599930",
-        "DE042_MerchantID": "M-319957",
-        "DE043_MerchantLocation": "Harris Inc            Longtown     US",
-        "Cust_Name": "Angela Norton",
-        "Cust_Email": "milleranna@gmail.com",
-        "Cust_Address": "344 Huffman Cliffs Apt. 470",
-        "Order_Amount_Micros": 73910000,
+        "DE041_TerminalID": "T6297860",
+        "DE042_MerchantID": "M-431856",
+        "DE043_MerchantLocation": "Weaver, Moody and BallNorth MaxwellUS",
+        "Cust_ID": "TOK-75836bf57bdb5421",
+        "Cust_Name": "Richard Mcgee",
+        "Cust_Email": "cu*************@yahoo.com",
+        "Cust_Address": "7709 George Place Apt. 385",
+        "Account_Number": "ACCT-501375581",
+        "Account_Status": "active",
+        "Order_Amount_Micros": 74060000,
         "addressMatch": "Y",
         "Account_Risk": {
             "acctAgeInd": "05",
@@ -458,31 +344,139 @@
             "txnActivityDay": 1
         },
         "Device_Browser_Telemetry": {
-            "ipAddress": "135.252.225.188",
-            "identifierForVendor": "4920c216-73fe-43fd-808d-98f1065ca5cd",
+            "ipAddress": "211.212.227.42",
+            "identifierForVendor": "89abfc00-b474-433b-ae51-3f753b8c13ae",
             "browserDetails": {
-                "userAgent": "Mozilla/5.0 (Windows NT 6.1; doi-IN; rv:1.9.2.20) Gecko/2097-10-31 07:57:06.369122 Firefox/7.0",
+                "userAgent": "Opera/9.75.(Windows NT 10.0; fr-CA) Presto/2.9.173 Version/11.00",
                 "screenHeight": 1920,
-                "screenWidth": 1920,
+                "screenWidth": 1080,
                 "colorDepth": 24,
-                "timeZone": "Pacific/Nauru"
+                "timeZone": "America/St_Lucia"
             }
         },
         "Item_Metadata": {
             "items": [
                 {
-                    "item_id": "SKU-5596",
-                    "brand": "Hutchinson-Mays",
+                    "item_id": "SKU-6772",
+                    "brand": "Davis PLC",
+                    "quantity": 2
+                },
+                {
+                    "item_id": "SKU-7412",
+                    "brand": "Rosales, Rhodes and Johnson",
                     "quantity": 1
                 },
                 {
-                    "item_id": "SKU-9064",
-                    "brand": "Castro, Thomas and Keller",
-                    "quantity": 3
+                    "item_id": "SKU-4228",
+                    "brand": "Maldonado LLC",
+                    "quantity": 2
                 },
                 {
-                    "item_id": "SKU-7731",
-                    "brand": "Richard Ltd",
+                    "item_id": "SKU-3413",
+                    "brand": "Guerra, Wise and Hines",
+                    "quantity": 3
+                }
+            ],
+            "shipping_method": "$electronic",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
+        "Is_Fraud": false,
+        "customer_id": "CH-44509",
+        "kyc_level": "standard",
+        "tenure_days": 291,
+        "prior_chargeback_count_30d": 2,
+        "card_brand": "Mastercard",
+        "card_product": "prepaid",
+        "issuer_bin": "881748",
+        "card_expiry_month": 3,
+        "card_expiry_year": 2031,
+        "cvv_result": "M",
+        "avs_result": "Z",
+        "tokenized_pan": true,
+        "network_token_type": "DPAN",
+        "transaction_id_network": "4f20c81d-a356-417f-8118-fbd071fc7fb9",
+        "retrieval_reference_number": "282374527988",
+        "authorization_lifecycle": "auth",
+        "installment_count": 0,
+        "tip_amount": 0.0,
+        "tax_amount": 5.9248,
+        "shipping_amount": 1.812294173777238,
+        "merchant_country": "US",
+        "card_issuing_country": "US",
+        "geo_distance": 698.5533682481868,
+        "currency_conversion_rate": 1.0,
+        "original_amount": 74.06,
+        "device_trust_score": 0.7915926993406266,
+        "proxy_vpn_tor_flag": false,
+        "ip_risk_score": 0.938025844758311,
+        "device_first_seen_at": "2026-03-11T01:44:21.524771+00:00",
+        "device_age_days": 128,
+        "cookie_age_days": 10,
+        "sim_swap_recent_flag": false,
+        "txn_count_1h": 0,
+        "txn_count_24h": 1,
+        "txn_count_7d": 7,
+        "amount_sum_1h": 0.0,
+        "amount_sum_24h": 74.06,
+        "amount_sum_7d": 518.4200000000001,
+        "distinct_merchants_24h": 2,
+        "distinct_cards_per_device_24h": 1,
+        "failed_auth_count_24h": 2,
+        "time_since_last_txn_sec": 52240,
+        "mcc_risk_score": 0.05897484950469534,
+        "is_marketplace_submerchant": false,
+        "submerchant_id": ""
+    },
+    {
+        "transaction_id": "7e238dc5-0c9b-4eaf-8c1a-34a5b828a31d",
+        "schema_version": "1.1.0",
+        "generator_version": "synthraGen-1.1",
+        "MTI": "0100",
+        "Timestamp": "2026-05-06T03:04:21.524771+00:00",
+        "DE002_PAN": "665460******6070",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000013536",
+        "DE022_POSEntryMode": "801",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "W0ZHLG",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T8928169",
+        "DE042_MerchantID": "M-967760",
+        "DE043_MerchantLocation": "Walker-Santiago       Schmittmouth US",
+        "Cust_ID": "TOK-ae4dd6bcca6a574d",
+        "Cust_Name": "Michelle Miller",
+        "Cust_Email": "ki*******@yahoo.com",
+        "Cust_Address": "694 Sims Neck Apt. 046",
+        "Account_Number": "ACCT-148129419",
+        "Account_Status": "active",
+        "Order_Amount_Micros": 135360000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "02",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "168.201.27.107",
+            "identifierForVendor": "378d2eb0-5dd3-4d6e-beec-f63f67c97f4f",
+            "browserDetails": {
+                "userAgent": "Opera/9.31.(Windows NT 6.2; mai-IN) Presto/2.9.169 Version/11.00",
+                "screenHeight": 1920,
+                "screenWidth": 1170,
+                "colorDepth": 24,
+                "timeZone": "Africa/Algiers"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-9310",
+                    "brand": "Costa-Gibbs",
                     "quantity": 3
                 }
             ],
@@ -493,25 +487,76 @@
             "transactionStatus": "Y",
             "threeDSRequestorChallengeInd": "05"
         },
-        "Is_Fraud": false
+        "Is_Fraud": false,
+        "customer_id": "CH-11774",
+        "kyc_level": "premium",
+        "tenure_days": 15,
+        "prior_chargeback_count_30d": 1,
+        "card_brand": "Mastercard",
+        "card_product": "debit",
+        "issuer_bin": "665460",
+        "card_expiry_month": 5,
+        "card_expiry_year": 2027,
+        "cvv_result": "U",
+        "avs_result": "N",
+        "tokenized_pan": true,
+        "network_token_type": "DPAN",
+        "transaction_id_network": "2b8f0214-9354-4bfc-b7de-917c628ff944",
+        "retrieval_reference_number": "793829499301",
+        "authorization_lifecycle": "auth",
+        "installment_count": 0,
+        "tip_amount": 0.0,
+        "tax_amount": 10.828800000000001,
+        "shipping_amount": 3.706267239042763,
+        "merchant_country": "US",
+        "card_issuing_country": "US",
+        "geo_distance": 101.30917201600465,
+        "currency_conversion_rate": 1.0,
+        "original_amount": 135.36,
+        "device_trust_score": 0.09433847916784766,
+        "proxy_vpn_tor_flag": false,
+        "ip_risk_score": 0.40212156407757604,
+        "device_first_seen_at": "2025-09-24T03:04:21.524771+00:00",
+        "device_age_days": 311,
+        "cookie_age_days": 22,
+        "sim_swap_recent_flag": false,
+        "txn_count_1h": 0,
+        "txn_count_24h": 1,
+        "txn_count_7d": 7,
+        "amount_sum_1h": 0.0,
+        "amount_sum_24h": 135.36,
+        "amount_sum_7d": 947.5200000000001,
+        "distinct_merchants_24h": 1,
+        "distinct_cards_per_device_24h": 1,
+        "failed_auth_count_24h": 1,
+        "time_since_last_txn_sec": 83288,
+        "mcc_risk_score": 0.37157698661664107,
+        "is_marketplace_submerchant": false,
+        "submerchant_id": ""
     },
     {
+        "transaction_id": "c443cbff-54b3-468c-9104-8ebb1f23e678",
+        "schema_version": "1.1.0",
+        "generator_version": "synthraGen-1.1",
         "MTI": "0100",
-        "Timestamp": "2026-05-09T16:58:15.082705",
-        "DE002_PAN": "3875952230472720",
+        "Timestamp": "2026-05-06T04:46:21.524771+00:00",
+        "DE002_PAN": "461863******9235",
         "DE003_ProcessingCode": "000000",
-        "DE004_Amount": "000000000317",
-        "DE022_POSEntryMode": "801",
+        "DE004_Amount": "000000003040",
+        "DE022_POSEntryMode": "051",
         "DE025_POSCondition": "00",
-        "DE038_AuthCode": "UFEGPS",
+        "DE038_AuthCode": "M6DUM8",
         "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T1547829",
-        "DE042_MerchantID": "M-585462",
-        "DE043_MerchantLocation": "Garcia Inc            Port William US",
-        "Cust_Name": "Michael Watts",
-        "Cust_Email": "ncline@hotmail.com",
-        "Cust_Address": "246 Jose Estates",
-        "Order_Amount_Micros": 3170000,
+        "DE041_TerminalID": "T7846453",
+        "DE042_MerchantID": "M-932072",
+        "DE043_MerchantLocation": "Martinez-Bruce        New NathanborUS",
+        "Cust_ID": "TOK-e79e2f263f565c95",
+        "Cust_Name": "Dorothy Nunez",
+        "Cust_Email": "sw*****@hotmail.com",
+        "Cust_Address": "7265 Doyle Union",
+        "Account_Number": "ACCT-716323980",
+        "Account_Status": "active",
+        "Order_Amount_Micros": 30400000,
         "addressMatch": "Y",
         "Account_Risk": {
             "acctAgeInd": "05",
@@ -520,26 +565,31 @@
             "txnActivityDay": 1
         },
         "Device_Browser_Telemetry": {
-            "ipAddress": "57.139.164.104",
-            "identifierForVendor": "cfc74b6e-8524-439a-8f0a-dd9ecb7e4dbc",
+            "ipAddress": "122.188.139.71",
+            "identifierForVendor": "45bcc44a-f39a-45db-b757-7641d6f2ed64",
             "browserDetails": {
-                "userAgent": "Opera/8.23.(X11; Linux i686; lzh-TW) Presto/2.9.177 Version/11.00",
-                "screenHeight": 2532,
-                "screenWidth": 1920,
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/26.0.817.0 Safari/535.1",
+                "screenHeight": 1080,
+                "screenWidth": 1080,
                 "colorDepth": 24,
-                "timeZone": "Pacific/Palau"
+                "timeZone": "Africa/Dar_es_Salaam"
             }
         },
         "Item_Metadata": {
             "items": [
                 {
-                    "item_id": "SKU-1642",
-                    "brand": "Rodriguez, Wood and Nguyen",
-                    "quantity": 3
+                    "item_id": "SKU-7645",
+                    "brand": "Donovan Group",
+                    "quantity": 2
                 },
                 {
-                    "item_id": "SKU-3357",
-                    "brand": "White-Le",
+                    "item_id": "SKU-6401",
+                    "brand": "Clarke Ltd",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "SKU-3413",
+                    "brand": "Waller, Johnson and Carson",
                     "quantity": 1
                 }
             ],
@@ -550,25 +600,76 @@
             "transactionStatus": "Y",
             "threeDSRequestorChallengeInd": "05"
         },
-        "Is_Fraud": false
+        "Is_Fraud": false,
+        "customer_id": "CH-22007",
+        "kyc_level": "basic",
+        "tenure_days": 131,
+        "prior_chargeback_count_30d": 2,
+        "card_brand": "Mastercard",
+        "card_product": "debit",
+        "issuer_bin": "461863",
+        "card_expiry_month": 5,
+        "card_expiry_year": 2027,
+        "cvv_result": "M",
+        "avs_result": "Y",
+        "tokenized_pan": true,
+        "network_token_type": "DPAN",
+        "transaction_id_network": "d20b8cec-98d0-46f9-945d-c783c560475a",
+        "retrieval_reference_number": "397663359440",
+        "authorization_lifecycle": "auth",
+        "installment_count": 0,
+        "tip_amount": 0.0,
+        "tax_amount": 2.432,
+        "shipping_amount": 8.465183929597996,
+        "merchant_country": "US",
+        "card_issuing_country": "US",
+        "geo_distance": 694.8760069838295,
+        "currency_conversion_rate": 1.0,
+        "original_amount": 30.4,
+        "device_trust_score": 0.12695096067458245,
+        "proxy_vpn_tor_flag": false,
+        "ip_risk_score": 0.16280269718998064,
+        "device_first_seen_at": "2025-08-02T04:46:21.524771+00:00",
+        "device_age_days": 76,
+        "cookie_age_days": 9,
+        "sim_swap_recent_flag": false,
+        "txn_count_1h": 0,
+        "txn_count_24h": 1,
+        "txn_count_7d": 7,
+        "amount_sum_1h": 0.0,
+        "amount_sum_24h": 30.4,
+        "amount_sum_7d": 212.79999999999998,
+        "distinct_merchants_24h": 2,
+        "distinct_cards_per_device_24h": 1,
+        "failed_auth_count_24h": 2,
+        "time_since_last_txn_sec": 31376,
+        "mcc_risk_score": 0.8250421780575852,
+        "is_marketplace_submerchant": false,
+        "submerchant_id": ""
     },
     {
+        "transaction_id": "ede2af44-07c5-4a12-90fb-fb7b2bea6c55",
+        "schema_version": "1.1.0",
+        "generator_version": "synthraGen-1.1",
         "MTI": "0100",
-        "Timestamp": "2026-05-09T19:54:15.082705",
-        "DE002_PAN": "4297530639509199",
+        "Timestamp": "2026-05-07T01:38:21.524771+00:00",
+        "DE002_PAN": "403748******0849",
         "DE003_ProcessingCode": "000000",
-        "DE004_Amount": "000000014253",
-        "DE022_POSEntryMode": "801",
+        "DE004_Amount": "000000000793",
+        "DE022_POSEntryMode": "010",
         "DE025_POSCondition": "00",
-        "DE038_AuthCode": "JO8KT8",
+        "DE038_AuthCode": "L77049",
         "DE039_ResponseCode": "00",
-        "DE041_TerminalID": "T8143789",
-        "DE042_MerchantID": "M-250167",
-        "DE043_MerchantLocation": "Banks-Harrington      Johnshire    US",
-        "Cust_Name": "Sonya Burnett",
-        "Cust_Email": "elizabeth52@hotmail.com",
-        "Cust_Address": "6329 Brittany Divide",
-        "Order_Amount_Micros": 142530000,
+        "DE041_TerminalID": "T3129919",
+        "DE042_MerchantID": "M-892085",
+        "DE043_MerchantLocation": "Gay-Barber            Port Brandy  US",
+        "Cust_ID": "TOK-0f5b6a371bae5272",
+        "Cust_Name": "Troy Hughes",
+        "Cust_Email": "je***********@hotmail.com",
+        "Cust_Address": "07441 Terri Mills",
+        "Account_Number": "ACCT-327623459",
+        "Account_Status": "active",
+        "Order_Amount_Micros": 7930000,
         "addressMatch": "Y",
         "Account_Risk": {
             "acctAgeInd": "05",
@@ -577,36 +678,242 @@
             "txnActivityDay": 1
         },
         "Device_Browser_Telemetry": {
-            "ipAddress": "197.48.174.229",
-            "identifierForVendor": "9c4db901-59cb-475b-ae94-8775b35d6a16",
+            "ipAddress": "58.213.71.119",
+            "identifierForVendor": "1e54dffa-5bb3-4190-9f31-0ac0237d515c",
             "browserDetails": {
-                "userAgent": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_8_6; rv:1.9.4.20) Gecko/6412-06-22 00:03:34.853027 Firefox/3.8",
+                "userAgent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.0; Trident/3.1)",
                 "screenHeight": 2532,
                 "screenWidth": 1170,
                 "colorDepth": 24,
-                "timeZone": "America/Pangnirtung"
+                "timeZone": "Asia/Thimphu"
             }
         },
         "Item_Metadata": {
             "items": [
                 {
-                    "item_id": "SKU-4965",
-                    "brand": "Harris, Morgan and Trevino",
+                    "item_id": "SKU-6792",
+                    "brand": "Miller, Skinner and Campbell",
                     "quantity": 1
                 },
                 {
-                    "item_id": "SKU-1711",
-                    "brand": "Jensen-Thompson",
-                    "quantity": 1
-                },
-                {
-                    "item_id": "SKU-8021",
-                    "brand": "Kirk Inc",
+                    "item_id": "SKU-1988",
+                    "brand": "Smith-Tate",
                     "quantity": 2
                 },
                 {
-                    "item_id": "SKU-5786",
-                    "brand": "Young, Brewer and Brooks",
+                    "item_id": "SKU-5848",
+                    "brand": "Johnson-Bradford",
+                    "quantity": 3
+                }
+            ],
+            "shipping_method": "$physical",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
+        "Is_Fraud": false,
+        "customer_id": "CH-39084",
+        "kyc_level": "basic",
+        "tenure_days": 138,
+        "prior_chargeback_count_30d": 0,
+        "card_brand": "Visa",
+        "card_product": "debit",
+        "issuer_bin": "403748",
+        "card_expiry_month": 6,
+        "card_expiry_year": 2028,
+        "cvv_result": "P",
+        "avs_result": "Z",
+        "tokenized_pan": true,
+        "network_token_type": "DPAN",
+        "transaction_id_network": "3c456ba1-54f8-41ac-8b2c-ab0bc494f08c",
+        "retrieval_reference_number": "384523543513",
+        "authorization_lifecycle": "auth",
+        "installment_count": 0,
+        "tip_amount": 0.0,
+        "tax_amount": 0.6344,
+        "shipping_amount": 2.152000408537397,
+        "merchant_country": "US",
+        "card_issuing_country": "US",
+        "geo_distance": 286.3846491684894,
+        "currency_conversion_rate": 1.0,
+        "original_amount": 7.93,
+        "device_trust_score": 0.6267326716878983,
+        "proxy_vpn_tor_flag": false,
+        "ip_risk_score": 0.568873688444014,
+        "device_first_seen_at": "2025-12-24T01:38:21.524771+00:00",
+        "device_age_days": 246,
+        "cookie_age_days": 6,
+        "sim_swap_recent_flag": false,
+        "txn_count_1h": 0,
+        "txn_count_24h": 1,
+        "txn_count_7d": 7,
+        "amount_sum_1h": 0.0,
+        "amount_sum_24h": 7.93,
+        "amount_sum_7d": 55.51,
+        "distinct_merchants_24h": 2,
+        "distinct_cards_per_device_24h": 1,
+        "failed_auth_count_24h": 1,
+        "time_since_last_txn_sec": 36798,
+        "mcc_risk_score": 0.44988708797843,
+        "is_marketplace_submerchant": false,
+        "submerchant_id": ""
+    },
+    {
+        "transaction_id": "3867783c-1bdd-464d-b2c4-e6e707d503aa",
+        "schema_version": "1.1.0",
+        "generator_version": "synthraGen-1.1",
+        "MTI": "0100",
+        "Timestamp": "2026-05-07T20:39:21.524771+00:00",
+        "DE002_PAN": "665460******6070",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000000643",
+        "DE022_POSEntryMode": "051",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "LEVAKI",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T9602855",
+        "DE042_MerchantID": "M-967760",
+        "DE043_MerchantLocation": "Walker-Santiago       Schmittmouth US",
+        "Cust_ID": "TOK-ae4dd6bcca6a574d",
+        "Cust_Name": "Michelle Miller",
+        "Cust_Email": "ki*******@yahoo.com",
+        "Cust_Address": "694 Sims Neck Apt. 046",
+        "Account_Number": "ACCT-148129419",
+        "Account_Status": "active",
+        "Order_Amount_Micros": 6430000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "02",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "168.201.27.107",
+            "identifierForVendor": "378d2eb0-5dd3-4d6e-beec-f63f67c97f4f",
+            "browserDetails": {
+                "userAgent": "Opera/9.31.(Windows NT 6.2; mai-IN) Presto/2.9.169 Version/11.00",
+                "screenHeight": 1920,
+                "screenWidth": 1170,
+                "colorDepth": 24,
+                "timeZone": "Africa/Algiers"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-9310",
+                    "brand": "Costa-Gibbs",
+                    "quantity": 3
+                }
+            ],
+            "shipping_method": "$physical",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
+        "Is_Fraud": false,
+        "customer_id": "CH-11774",
+        "kyc_level": "premium",
+        "tenure_days": 16,
+        "prior_chargeback_count_30d": 1,
+        "card_brand": "Mastercard",
+        "card_product": "credit",
+        "issuer_bin": "665460",
+        "card_expiry_month": 8,
+        "card_expiry_year": 2027,
+        "cvv_result": "U",
+        "avs_result": "Z",
+        "tokenized_pan": true,
+        "network_token_type": "DPAN",
+        "transaction_id_network": "3d70c8bd-4dac-4486-8755-fec104209342",
+        "retrieval_reference_number": "521925732127",
+        "authorization_lifecycle": "auth",
+        "installment_count": 0,
+        "tip_amount": 0.0,
+        "tax_amount": 0.5144,
+        "shipping_amount": 1.5356240885647199,
+        "merchant_country": "US",
+        "card_issuing_country": "US",
+        "geo_distance": 773.0516679964268,
+        "currency_conversion_rate": 1.0,
+        "original_amount": 6.43,
+        "device_trust_score": 0.894836259089106,
+        "proxy_vpn_tor_flag": false,
+        "ip_risk_score": 0.3075979284851623,
+        "device_first_seen_at": "2025-11-29T20:39:21.524771+00:00",
+        "device_age_days": 167,
+        "cookie_age_days": 0,
+        "sim_swap_recent_flag": false,
+        "txn_count_1h": 0,
+        "txn_count_24h": 1,
+        "txn_count_7d": 7,
+        "amount_sum_1h": 0.0,
+        "amount_sum_24h": 6.43,
+        "amount_sum_7d": 45.01,
+        "distinct_merchants_24h": 5,
+        "distinct_cards_per_device_24h": 1,
+        "failed_auth_count_24h": 0,
+        "time_since_last_txn_sec": 69478,
+        "mcc_risk_score": 0.5620353396368519,
+        "is_marketplace_submerchant": true,
+        "submerchant_id": "SUB-6342"
+    },
+    {
+        "transaction_id": "0bfe2a87-c9f4-4c04-8cd9-0f3f1a647ead",
+        "schema_version": "1.1.0",
+        "generator_version": "synthraGen-1.1",
+        "MTI": "0100",
+        "Timestamp": "2026-05-08T00:52:21.524771+00:00",
+        "DE002_PAN": "769951******7182",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000008471",
+        "DE022_POSEntryMode": "010",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "DPQ2KM",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T9882058",
+        "DE042_MerchantID": "M-999296",
+        "DE043_MerchantLocation": "Spencer LLC           Karenmouth   US",
+        "Cust_ID": "TOK-b192ee0cd3315e83",
+        "Cust_Name": "Morgan Collins",
+        "Cust_Email": "le************@yahoo.com",
+        "Cust_Address": "4823 Albert Lakes",
+        "Account_Number": "ACCT-362788940",
+        "Account_Status": "active",
+        "Order_Amount_Micros": 84710000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "05",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "19.165.225.212",
+            "identifierForVendor": "e418c58a-3def-4f0c-ba33-df5ce262e3ff",
+            "browserDetails": {
+                "userAgent": "Mozilla/5.0 (iPod; U; CPU iPhone OS 4_3 like Mac OS X; hu-HU) AppleWebKit/531.14.5 (KHTML, like Gecko) Version/4.0.5 Mobile/8B118 Safari/6531.14.5",
+                "screenHeight": 2532,
+                "screenWidth": 1170,
+                "colorDepth": 24,
+                "timeZone": "Asia/Ulaanbaatar"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-6827",
+                    "brand": "Davenport and Sons",
+                    "quantity": 3
+                },
+                {
+                    "item_id": "SKU-5497",
+                    "brand": "Castillo, Johnson and Ayers",
                     "quantity": 2
                 }
             ],
@@ -617,6 +924,169 @@
             "transactionStatus": "Y",
             "threeDSRequestorChallengeInd": "05"
         },
-        "Is_Fraud": false
+        "Is_Fraud": false,
+        "customer_id": "CH-94152",
+        "kyc_level": "standard",
+        "tenure_days": 61,
+        "prior_chargeback_count_30d": 1,
+        "card_brand": "Amex",
+        "card_product": "debit",
+        "issuer_bin": "769951",
+        "card_expiry_month": 10,
+        "card_expiry_year": 2028,
+        "cvv_result": "P",
+        "avs_result": "N",
+        "tokenized_pan": true,
+        "network_token_type": "DPAN",
+        "transaction_id_network": "4add9a68-0f8f-4a03-9978-66c28880789e",
+        "retrieval_reference_number": "866875964377",
+        "authorization_lifecycle": "auth",
+        "installment_count": 0,
+        "tip_amount": 0.0,
+        "tax_amount": 6.7768,
+        "shipping_amount": 8.924846423214692,
+        "merchant_country": "US",
+        "card_issuing_country": "US",
+        "geo_distance": 655.0063628157669,
+        "currency_conversion_rate": 1.0,
+        "original_amount": 84.71,
+        "device_trust_score": 0.27557271181568244,
+        "proxy_vpn_tor_flag": false,
+        "ip_risk_score": 0.05150440538335577,
+        "device_first_seen_at": "2025-06-16T00:52:21.524771+00:00",
+        "device_age_days": 342,
+        "cookie_age_days": 6,
+        "sim_swap_recent_flag": false,
+        "txn_count_1h": 0,
+        "txn_count_24h": 1,
+        "txn_count_7d": 7,
+        "amount_sum_1h": 0.0,
+        "amount_sum_24h": 84.71,
+        "amount_sum_7d": 592.9699999999999,
+        "distinct_merchants_24h": 2,
+        "distinct_cards_per_device_24h": 1,
+        "failed_auth_count_24h": 3,
+        "time_since_last_txn_sec": 4563,
+        "mcc_risk_score": 0.7307171226085042,
+        "is_marketplace_submerchant": false,
+        "submerchant_id": ""
+    },
+    {
+        "transaction_id": "f0c61cd0-4c15-48f1-bad2-45667d446632",
+        "schema_version": "1.1.0",
+        "generator_version": "synthraGen-1.1",
+        "MTI": "0100",
+        "Timestamp": "2026-05-08T13:57:21.524771+00:00",
+        "DE002_PAN": "224244******2261",
+        "DE003_ProcessingCode": "000000",
+        "DE004_Amount": "000000000338",
+        "DE022_POSEntryMode": "051",
+        "DE025_POSCondition": "00",
+        "DE038_AuthCode": "EDBSZ6",
+        "DE039_ResponseCode": "00",
+        "DE041_TerminalID": "T5317479",
+        "DE042_MerchantID": "M-431856",
+        "DE043_MerchantLocation": "Weaver, Moody and BallNorth MaxwellUS",
+        "Cust_ID": "TOK-2136152ae8fb5cfd",
+        "Cust_Name": "Richard Jones",
+        "Cust_Email": "ck***@yahoo.com",
+        "Cust_Address": "1447 Lauren Stravenue",
+        "Account_Number": "ACCT-744382700",
+        "Account_Status": "frozen",
+        "Order_Amount_Micros": 3380000,
+        "addressMatch": "Y",
+        "Account_Risk": {
+            "acctAgeInd": "05",
+            "acctChangeInd": "01",
+            "suspiciousAccActivity": false,
+            "txnActivityDay": 1
+        },
+        "Device_Browser_Telemetry": {
+            "ipAddress": "129.203.211.121",
+            "identifierForVendor": "ac306db7-8030-4131-a35c-0dc4252eb647",
+            "browserDetails": {
+                "userAgent": "Opera/8.64.(Windows NT 5.2; bg-BG) Presto/2.9.171 Version/12.00",
+                "screenHeight": 2532,
+                "screenWidth": 1170,
+                "colorDepth": 24,
+                "timeZone": "Asia/Aden"
+            }
+        },
+        "Item_Metadata": {
+            "items": [
+                {
+                    "item_id": "SKU-6772",
+                    "brand": "Davis PLC",
+                    "quantity": 2
+                },
+                {
+                    "item_id": "SKU-7412",
+                    "brand": "Rosales, Rhodes and Johnson",
+                    "quantity": 1
+                },
+                {
+                    "item_id": "SKU-4228",
+                    "brand": "Maldonado LLC",
+                    "quantity": 2
+                },
+                {
+                    "item_id": "SKU-3413",
+                    "brand": "Guerra, Wise and Hines",
+                    "quantity": 3
+                }
+            ],
+            "shipping_method": "$electronic",
+            "promotions": []
+        },
+        "Authentication_3DS2": {
+            "transactionStatus": "Y",
+            "threeDSRequestorChallengeInd": "05"
+        },
+        "Is_Fraud": false,
+        "customer_id": "CH-35134",
+        "kyc_level": "basic",
+        "tenure_days": 159,
+        "prior_chargeback_count_30d": 1,
+        "card_brand": "Mastercard",
+        "card_product": "credit",
+        "issuer_bin": "224244",
+        "card_expiry_month": 2,
+        "card_expiry_year": 2030,
+        "cvv_result": "P",
+        "avs_result": "N",
+        "tokenized_pan": true,
+        "network_token_type": "DPAN",
+        "transaction_id_network": "30234cb7-d146-4a4d-842c-9b5478e6a47b",
+        "retrieval_reference_number": "187609415007",
+        "authorization_lifecycle": "auth",
+        "installment_count": 0,
+        "tip_amount": 0.0,
+        "tax_amount": 0.2704,
+        "shipping_amount": 4.886403581265401,
+        "merchant_country": "US",
+        "card_issuing_country": "US",
+        "geo_distance": 996.0853668411119,
+        "currency_conversion_rate": 1.0,
+        "original_amount": 3.38,
+        "device_trust_score": 0.4767818199127525,
+        "proxy_vpn_tor_flag": false,
+        "ip_risk_score": 0.1697053833613733,
+        "device_first_seen_at": "2025-08-09T13:57:21.524771+00:00",
+        "device_age_days": 46,
+        "cookie_age_days": 10,
+        "sim_swap_recent_flag": false,
+        "txn_count_1h": 0,
+        "txn_count_24h": 1,
+        "txn_count_7d": 7,
+        "amount_sum_1h": 0.0,
+        "amount_sum_24h": 3.38,
+        "amount_sum_7d": 23.66,
+        "distinct_merchants_24h": 3,
+        "distinct_cards_per_device_24h": 1,
+        "failed_auth_count_24h": 2,
+        "time_since_last_txn_sec": 25498,
+        "mcc_risk_score": 0.026464618274565588,
+        "is_marketplace_submerchant": false,
+        "submerchant_id": ""
     }
 ]

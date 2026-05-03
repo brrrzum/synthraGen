@@ -1,0 +1,11 @@
+{
+    "5411": {"desc": "Groceries", "delivery": "$physical"},
+    "5812": {"desc": "Restaurants", "delivery": "$physical"},
+    "5541": {"desc": "Gas Stations", "delivery": "$physical"},
+    "5999": {"desc": "Misc Retail", "delivery": "$physical"},
+    "4511": {"desc": "Airlines", "delivery": "$electronic"},
+    "5816": {"desc": "Digital Goods", "delivery": "$electronic"},
+    "5732": {"desc": "Electronics Stores", "delivery": "$physical"},
+    "4121": {"desc": "Taxicabs/Rideshare", "delivery": "$electronic"},
+    "7011": {"desc": "Hotels/Lodging", "delivery": "$physical"}
+}
