@@ -4,6 +4,7 @@ import csv
 import random
 import string
 import uuid
+import os
 from datetime import datetime, timedelta
 from faker import Faker
 
@@ -161,22 +162,33 @@ class PopulationEngine:
         return cardholders
 
 class MerchantEngine:
-    def generate_merchants(self, count):
-        mccs = {
-            "5411": ("Groceries", "$physical"), 
-            "5812": ("Restaurants", "$physical"), 
-            "5541": ("Gas Stations", "$physical"), 
-            "5999": ("Misc Retail", "$physical"),
-            "4511": ("Airlines", "$electronic"),
-            "5816": ("Digital Goods", "$electronic")
+    def __init__(self, mcc_mapping=None):
+        """
+        Initializes the MerchantEngine with a dynamic MCC mapping.
+        If no mapping is provided, it defaults to a robust baseline dictionary
+        that includes the delivery types necessary for risk indicator analysis[cite: 2].
+        """
+        self.mccs = mcc_mapping or {
+            "5411": {"desc": "Groceries", "delivery": "$physical"},
+            "5812": {"desc": "Restaurants", "delivery": "$physical"},
+            "5541": {"desc": "Gas Stations", "delivery": "$physical"},
+            "5999": {"desc": "Misc Retail", "delivery": "$physical"},
+            "4511": {"desc": "Airlines", "delivery": "$electronic"},
+            "5816": {"desc": "Digital Goods", "delivery": "$electronic"},
+            "5732": {"desc": "Electronics Stores", "delivery": "$physical"},
+            "4121": {"desc": "Taxicabs/Rideshare", "delivery": "$electronic"},
+            "7011": {"desc": "Hotels/Lodging", "delivery": "$physical"}
         }
+
+    def generate_merchants(self, count):
         merchants = []
+        mcc_keys = list(self.mccs.keys())
         
         for _ in range(count):
-            mcc_code = random.choice(list(mccs.keys()))
-            desc, delivery = mccs[mcc_code]
+            mcc_code = random.choice(mcc_keys)
+            mcc_data = self.mccs[mcc_code]
             
-            # Generate line item inventory sample for this merchant[cite: 2]
+            # Generate line item inventory sample to support merchant risk metadata[cite: 2]
             inventory = [{
                 "item_id": f"SKU-{random.randint(1000,9999)}",
                 "brand": fake.company(),
@@ -186,10 +198,10 @@ class MerchantEngine:
             merchants.append({
                 "id": f"M-{random.randint(100000, 999999)}",
                 "mcc": mcc_code,
-                "mcc_desc": desc,
+                "mcc_desc": mcc_data["desc"],
                 "name": fake.company(), 
                 "city": fake.city(),
-                "delivery_type": delivery,
+                "delivery_type": mcc_data["delivery"],
                 "inventory_sample": inventory
             })
         return merchants
@@ -260,12 +272,23 @@ def main():
     parser.add_argument("--users", type=int, default=20)
     parser.add_argument("--merchants", type=int, default=10)
     parser.add_argument("--output", type=str, default="output.json")
+    parser.add_argument("--mcc-file", type=str, default=None, help="Path to a JSON file containing custom MCC mappings")
     
     args = parser.parse_args()
     
+    # Load dynamic MCCs if a file is provided
+    custom_mccs = None
+    if args.mcc_file and os.path.exists(args.mcc_file):
+        print(f"[*] Loading dynamic MCC configuration from {args.mcc_file}...")
+        with open(args.mcc_file, 'r') as f:
+            custom_mccs = json.load(f)
+    
     translator = ModernTransactionTranslator()
     pop_engine = PopulationEngine(translator)
-    merch_engine = MerchantEngine()
+    
+    # Inject the dynamic configuration
+    merch_engine = MerchantEngine(mcc_mapping=custom_mccs)
+    
     term_engine = TerminalEngine()
     behavior_engine = BehavioralEngine(translator)
     
